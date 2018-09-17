@@ -1,0 +1,106 @@
+using Discord;
+using Discord.Commands;
+using Discord.WebSocket;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Castform.Modules
+{
+    public class Class1 : ModuleBase<SocketCommandContext> 
+    {
+
+        //public static int initTemp = Console.Read(); //fahrenheit
+
+       // int FtoC = ((initTemp - 32) / 9) * 5;
+        [Command("Hi Castform")]
+        public async Task lol()
+        {
+            //await Context.Channel.SendMessageAsync("The temperature in Celsius is "+FtoC);
+            await Context.Channel.SendMessageAsync("Hello there");
+        }
+
+        [Command("how are you doing today Castform")]
+        public async Task lol1()
+        {
+            await Context.Channel.SendMessageAsync("I am doing good! ");
+        }
+
+        [Command("thats good to hear Castform")]
+        public async Task lol2()
+        {
+            await Context.Channel.SendMessageAsync("thanks friend, I have to go now");
+
+        }
+
+        [Command("bye castform")]
+        public async Task lol3()
+        {
+            await Context.Channel.SendMessageAsync("goodbye");
+        }
+
+        [Command("can you tell me alittle about yourself Castform")]
+        public async Task lol4()
+        {
+            await Context.Channel.SendMessageAsync("I am Castform, the weather pokemon, a normal type. I can change my cells to take different forms based on the temperature and humidity around me!");
+        }
+        [Command("hey melvin")]
+        public async Task lol5()
+        {
+            await Context.Channel.SendMessageAsync("Dont talk to my son.");
+        }
+        [Command("hi melvin")]
+        public async Task lol6()
+        {
+            await Context.Channel.SendMessageAsync("Dont talk to my son.");
+        }
+        [Command("goodnight castform")]
+        public async Task lol7()
+        {
+            await Context.Channel.SendMessageAsync("Goodnight.");
+        }
+        [Command("hi manny")]
+        public async Task lol8()
+        {
+            await Context.Channel.SendMessageAsync("Taco Burrito Enchilada buenos dias Mexico");
+        }
+        [Command("fuck you castform")]
+        public async Task lol9()
+        {
+            await Context.Channel.SendMessageAsync("At least somebody wants to fuck me unlike you");
+        }
+        [Command("Dogs or cats castform?")]
+        public async Task lol10()
+        {
+            await Context.Channel.SendMessageAsync("I prefer to enslave humans instead.");
+        }
+        [Command("Who created you castform")]
+        public async Task lol11()
+        {
+            await Context.Channel.SendMessageAsync("My master is Eddie, his discord ID is Eddie#1546. You may reach him at EddieHLive@gmail.com, https://www.instagram.com/_eddie.huang_/");
+        }
+      //  public static int initTemp = Console.Read();
+       // int FtoC = ((initTemp - 32) / 9 * 5);
+       // [Command("FToC ")]
+       //     public async Task lol12()
+      //  {
+      //      await Context.Channel.SendMessageAsync("Your number is " + FtoC);
+     //   }
+     [Command("tell me a joke castform")]
+     public async Task lol12()
+        {
+            await Context.Channel.SendMessageAsync("What did the duck say to the bartender? Put it on my bill. HAHAHAHAHAHA");
+        }
+        [Command("contact info castform")]
+        public async Task lol13()
+        {
+            await Context.Channel.SendMessageAsync("Email: EddieHLive@gmail.com \nInstagram: https://www.instagram.com/_eddie.huang_/ \nDiscord: Eddie#1546 \nTwitter: XiaoFeiZhuu");
+        }
+        [Command("right castform?")]
+        public async Task lol14()
+        {
+            await Context.Channel.SendMessageAsync("That is right.");
+        }
+    }
+}
