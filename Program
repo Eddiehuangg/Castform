@@ -21,7 +21,7 @@ namespace Castform
 
             new CommandHandler(_client);
 
-            await _client.LoginAsync(TokenType.Bot, "NDkwMzgwMTIxMDgyMDM2MjQ0.Dn7QJQ.GmBylpR0Kbye0PseI0XYawqQEeQ");
+            await _client.LoginAsync(TokenType.Bot, "Token here");
 
             await _client.StartAsync();
 
