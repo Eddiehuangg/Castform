@@ -60,16 +60,6 @@ namespace Castform.Modules
         {
             await Context.Channel.SendMessageAsync("Goodnight.");
         }
-        [Command("hi manny")]
-        public async Task lol8()
-        {
-            await Context.Channel.SendMessageAsync("Taco Burrito Enchilada buenos dias Mexico");
-        }
-        [Command("fuck you castform")]
-        public async Task lol9()
-        {
-            await Context.Channel.SendMessageAsync("At least somebody wants to fuck me unlike you");
-        }
         [Command("Dogs or cats castform?")]
         public async Task lol10()
         {
